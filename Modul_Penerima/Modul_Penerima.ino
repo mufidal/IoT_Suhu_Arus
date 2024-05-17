@@ -112,7 +112,7 @@ void OnDataRecv(const uint8_t * mac_addr, const uint8_t *incomingData, int len) 
 /*Fungsi buat dapetin token*/
 void postHttp(){
   Serial.println("Update Token...");
-  String url = "https://vektorendra.xyz/lora/api/rest/generate";
+  String url = "Link API Kalyann yak";
   HTTPClient http ;
   String responsetoken;
 
@@ -162,7 +162,7 @@ void postHttp(){
 void postdata(){
   Serial.println("--------------------");
   Serial.println(globaltoken);
-  String url2 = "https://vektorendra.xyz/lora/api/acmon/pushData";
+  String url2 = "Link API Kalyann yak";
   HTTPClient http ;
   String responsekirim;
 
